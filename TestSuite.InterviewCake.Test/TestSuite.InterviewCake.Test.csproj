@@ -55,6 +55,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="AppleStocks\SolutionTest.cs" />
+    <Compile Include="HighestProductOf3\SolutionTest.cs" />
     <Compile Include="ProductsExceptIndex\SolutionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CondenseMeetingTimes\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
